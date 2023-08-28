@@ -1,0 +1,62 @@
+main h1 {
+    margin: 0px;
+    font-size: 40pt;
+    text-align: center;
+    padding-bottom: 20px;
+}
+main h2 {
+    margin: 0px;
+    font-size: 30pt;
+}
+main div {
+    background-color: #011f41;
+    border-radius: 20px;
+    text-align: justify;
+    width: 1000px;
+    margin: 0px auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#goal {
+    text-align: center;
+}
+#goal img {
+    width: 167px;
+    height: 100px;
+}
+#slideshow {
+    background-color: transparent;
+    text-align: center;
+    margin: 0px;
+}
+#goal p {
+    font-size: 15pt;
+    margin: 0px;
+}
+
+#about {
+    min-height: 400px;
+}
+#about img {
+    float: left;
+    border-radius: 10px;
+    margin: 10px;
+    height: 300px;
+    width: 400px;
+}
+#me {
+    font-size: 15pt;
+    padding-right: 5px;
+    padding-bottom: 158px;
+    margin: 0px;
+}
+#description {
+    color: grey;
+    font-weight: normal;
+    margin-top: -10px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    float: left;
+    font-style: italic;
+}
+

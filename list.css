@@ -1,0 +1,108 @@
+main li {
+    display: inline;
+}
+main ul {
+    padding-left: 0px;
+}
+
+main h1 {
+    margin: 0px;
+    font-size: 40pt;
+    text-align: center;
+}
+
+main div {
+    background-color: #011f41;
+    border-radius: 20px;
+    text-align: justify;
+    padding-bottom: 10px;
+    width: 1000px;
+    margin: 0px auto;
+}
+main p {
+    margin: 5px 0px 0px 0px;
+    padding: 10px;
+    font-size: 22pt;
+}
+
+main h2 {
+    margin: 20px 0px 0px 0px;
+    font-size: 40pt;
+    text-align: center;
+}
+
+main h3 {
+    margin: 0px;
+    font-size: 17pt;
+}
+.shooter {
+    color: darkolivegreen;
+}
+.survival {
+    color: orangered;   
+}
+.adventure {
+    color: salmon;
+}
+
+main div ul {
+    padding: 10px 10px 10px 10px;
+    margin: 0px;
+    border-bottom: 5px dashed black;
+}
+#advList {
+    border: 0px;
+}
+main div li {
+    font-size: 13pt;
+}
+
+.link {
+    padding-left: 150px;
+}
+
+main > h3  {
+    font-size: 25pt;
+    font-style: italic;
+}
+#genList {
+    background-color: #011f41;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0px auto 10px auto;
+    width: 1150px
+}
+
+
+.gameList {
+    color: white;
+    font-size: 13pt;
+    padding: 10px 0px 20px 0px;
+    border-bottom: 3px solid black;
+    min-height: 150px;
+    margin: 5px
+}
+.gameImg img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+.gameTitle {
+    color: #a1d2df;
+    font-size: 20pt;
+    display: block;
+    margin-top: -8px;
+}
+.gameText {
+    text-align: justify;
+}
+.gamePlat {
+    color: tan;
+}
+
+
+
+

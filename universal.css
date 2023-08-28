@@ -1,0 +1,97 @@
+html{
+    height: 100%;
+}
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #011329;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    font-weight: bold;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #31b8db;
+}
+a:hover {
+    border-bottom: 2px solid #a1d2df;
+    color: #a1d2df;
+}
+
+header {
+    background-color: #002955;
+    width: 100%;
+    height: 100px;
+    border-bottom: 5px solid black;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+#heading {
+    padding: 0px 10px;
+    margin: auto;
+    height: 100px;
+    width: 1200px;
+}
+#title {
+    margin: auto;
+    text-align: center;
+    float: left;
+}
+#title img {
+    padding-top: 10px;
+    height: 75px;
+    width: 101px;
+}
+#title h1 {
+    padding-top: 20px;
+    padding-left: 10px;
+    margin: 0px;
+    float: right;
+    font-size: 30pt;
+}
+
+header ul {
+    float: right;
+    padding: 0px 30px 0px 0px;
+    margin-top: 35px;
+}
+header ul li {
+    display: inline;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+
+main {
+    width: 80%;
+    margin: 110px auto 0px auto;
+    color: white;
+}
+
+
+footer {
+    background-color: #002955;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 1rem;
+    color: #31b8db;
+    font-weight: bold;
+    font-size: 10pt;
+    border-top: 5px solid black;
+    grid-row-start: 2;
+    grid-row-end: 3;
+
+}
+footer img {
+    height: 50px;
+    width: 67px;
+}
+footer p {
+    margin: 0px;
+}

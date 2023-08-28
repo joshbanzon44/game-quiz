@@ -1,0 +1,62 @@
+main {
+    height: 600px;
+}
+
+main h1 {
+    margin: 0px;
+    padding-left: 30px;
+    font-size: 60pt;
+}
+main h2 {
+    margin: -25px 0px 0px 0px;
+    font-size: 30pt;
+    color: #669fc3;
+    padding-left: 80px;
+    font-style: italic;
+    position: relative;
+}
+main span {
+    color: #31b8db;
+}
+main div {
+    font-size: 25pt;
+    background-color: #011f41;
+    border-radius: 20px;
+    text-align: justify;
+    width: 1200px;
+    margin: 0px auto;
+}
+main p {
+    margin-top: 5px;
+    padding: 10px;
+}
+#shooter{
+    color: darkolivegreen;
+}
+#surv {
+    color: orangered;
+}
+#adv {
+    color: salmon
+}
+
+table {
+    background-color: #011f41;
+    border-radius: 25px;
+    text-align: center;
+    width: 1200px;
+    margin: 0px auto;
+}
+table th {
+    font-size: 25pt;
+    border-bottom: 3px solid black;
+}
+table td {
+    padding: 10px;
+    width: 25%;
+    border-right: 2px solid black;
+    font-size: 20pt;
+}
+#last {
+    border: 0px;
+}
