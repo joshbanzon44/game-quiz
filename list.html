@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>GameQuiz</title>
+        <link rel="icon" type="image/png" href="images/controller.png">
+        <link rel="stylesheet" type="text/css" href="CSS/universal.css">
+        <link rel="stylesheet" type="text/css" href="CSS/list.css">
+        <!--where CSS and Javascript files will be linked-->
+    </head>
+
+    <body>
+        <header> <!--logo, navigation bars-->
+            <div id="heading">
+                <div id="title">
+                    <img src="images/controller.png" alt="logo">
+                    <h1><a href="index.html">GameQuiz</a></h1>
+                </div>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="list.html">List of Games</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        
+        <main>
+            <h1>List of Our Recommended Games</h1>
+
+            <div>
+                <p>GameQuiz supports 15 varying games from 3 different genres. Each game is unique in its own way and can bring enjoyment to any and all gamers!</p>
+            </div>
+
+            <h2>Genres:</h2>
+
+            <div> 
+                <ul>
+                    <li><h3 class="shooter">Shooter</h3></li>
+                    <li class="desc">Shooter games are action video games where the focus is almost entirely on the defeat 
+                        of the character's enemies using the weapons given to the player. They often test the player's
+                        spatial awareness, reflexes, and speed.</li> <br>
+                    <li class="link"><a href="#shooterJump">Jump to Shooter Genre</a></li>
+                </ul>
+                
+
+                <ul>
+                    <li><h3 class="survival">Survival</h3></li>
+                    <li class="desc">Survival games are games often set in hostile, intense, open-world environments. Players generally 
+                        start with minimal equipment and are required to survive as long as possible by crafting tools, 
+                        weapons, shelters, and collecting resources.</li> <br>
+                    <li class="link"><a href="#survivalJump">Jump to Surival Genre</a></li>
+                </ul>
+
+                <ul id="advList">
+                    <li><h3 class="adventure">Adventure</h3></li>
+                    <li class="desc">Adventure games are where the player assumes the role of a protagonist in an interactive story, driven 
+                        by exploration and/or puzzle-solving. They have a strong focus on narrative, offering up an immersive 
+                        and engaging story for the player to follow while also allowing character development through dialogue.</li> <br>
+                    <li id="shooterJump" class="link"><a href="#adventureJump">Jump to Adventure Genre</a></li>
+                </ul>
+             </div>
+
+            <h2>All Games:</h2>
+
+            <h3 class="shooter">Shooters</h3>
+            <ul id="genList">
+                <li>
+                    <ul class="gameList">
+                        <li class="gameImg"><img src="images/Valorant.png" alt="valorant logo"></li>
+                        <li class="gameTitle">Valorant</li>
+                        <li class="gameText">Valorant is a team-based first-person tactical hero shooter set in the near future. Players 
+                            play as one of a set of Agents, characters based on several countries and cultures around 
+                            the world. It is a highly competitive 5v5 character-based tactical FPS where precise gunplay 
+                            meets unique agent abilities.</li><br>
+                        <li class="gamePlat">Platforms: PC</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="gameList">
+                        <li class="gameImg"><img src="images/Fortnite.png" alt="fortnite logo"></li>
+                        <li class="gameTitle">Fortnite</li>
+                        <li class="gameText">Fortnite is distributed as three different game modes: Save the World, Battle Royale, and Creative.
+                            Save the World is a player-versus-environment cooperative game where you collect resources, save survivors, and defend 
+                            equipment that helps to either collect data on the storm or to push back the storm. Battle Royale is a 
+                            player-versus-player game for up to 100 players where they must scavenge for weapons, items, resources, and even vehicles while trying to stay alive 
+                            be the last player standing. Creative is a sandbox game mode for players to freely experiment with the game's mechanics and elements.</li><br>
+                        <li class="gamePlat">Platforms: PC, Xbox, Playstation, Nintendo Switch, Android</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="gameList">
+                        <li class="gameImg"><img src="images/Escape_from_Tarkov.png" alt="eft logo"></li>
+                        <li class="gameTitle">Escape from Tarkov</li>
+                        <li class="gameText">Escape from Tarkov is a multiplayer, realistic, and hardcore first-person shooter video game. Players are set in a militaristic simulation and
+                            join matches called "raids" in which they fight other players and bots for loot and aim to survive and escape. 
+                            It is an extremely difficult game and not ideal for beginners, but rather experts looking for an intense experience.</li><br>
+                        <li class="gamePlat">Platforms: PC</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="gameList">
+                        <li class="gameImg"><img src="images/Destiny_2.png" alt="destiny2 logo"></li>
+                        <li class="gameTitle">Destiny 2</li>
+                        <li class="gameText">Destiny 2 is a first-person shooter game that incorporates role-playing and massively multiplayer online game (MMO) elements. 
+                            It is set in a "mythic science fiction" world with a cinematic story, challenging co-op missions, and a variety of PvP modes. 
+                            The world of Destiny 2 and the mysteries of the solar system are where you can experience responsive first-person shooter combat, 
+                            unlock powerful elemental abilities, and collect unique gear to customize your "Guardian's" look and playstyle.
+                        </li><br>
+                        <li class="gamePlat">Platforms: PC, Xbox, Playstation</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="gameList">
+                        <li class="gameImg"><img src="images/Superhot.png" alt="superhot logo"></li>
+                        <li class="gameTitle">Superhot</li>
+                        <li id="survivalJump" class="gameText">SUPERHOT is a smash-hit virtual reality FPS where time moves only when you move. As the player, you attempt to take out enemy targets 
+                            using guns and other weapons, while the time within the game progresses at normal speed only when the player moves; this creates the 
+                            opportunity for you to assess the situation in slow motion and respond appropriately, making the gameplay similar to strategy video games. 
+                            The game is presented in a minimalist art style, with enemies in red and weapons in black, in contrast to the otherwise white and grey environment.</li><br>
+                        <li class="gamePlat">Platforms: PC, Xbox, Playstation, Nintendo Switch, Oculus Quest</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3 class="survival">Survival</h3>
+            <ul id="genList">
+                <li>
+                    <ul class="gameList">
+                        <li class="gameImg"><img src="images/Minecraft.png" alt="mc logo"></li>
+                        <li class="gameTitle">Minecraft</li>
+                        <li class="gameText">In Minecraft, players explore a blocky, procedurally generated, three-dimensional world with virtually infinite terrain
+                            and may discover and extract raw materials, craft tools and items, and build structures, earthworks, and machines. This open-world, 
+                            sandbox, survival game is well suited for beginners to video games and experts alike.</li><br>
+                        <li class="gamePlat">Platforms: PC, Xbox, Playstation, Nintendo Switch, Android, iOS</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="gameList">
+                        <li class="gameImg"><img src="images/Subnautica.png" alt="subnautica logo"></li>
+                        <li class="gameTitle">Subnautica</li>
+                        <li class="gameText">Subnautica is a first-person, open-world survial game that takes place in the late 22nd century, when humanity begins to 
+                            colonize planets in space. It's objective is to explore the ocean and survive its dangers, while completing tasks to advance the plot. 
+                            Players can collect resources, construct tools, build bases, submersibles, and interact with the planet's wildlife.</li><br>
+                        <li class="gamePlat">Platforms: PC, Xbox, Playstation, Nintendo Switch</li>
+                    </ul>
+
+                </li>
+                <li>
+                    <ul class="gameList">
+                        <li class="gameImg"><img src="images/Valheim.png" alt="valheim logo"></li>
+                        <li class="gameTitle">Valheim</li>
+                        <li class="gameText">Valheim is an open-world survival game played from a third-person perspective and inspired by Norse mythology. As fallen Vikings, players must craft tools, 
+                            build shelters and fight enemies to survive. The game uses distinctive low-resolution stylized 3D graphics, with a combat system 
+                            inspired by action games. Players explore a world shrouded in mystery and can discover distinct environments with unique enemies 
+                            to battle and secrets to uncover.</li><br>
+                        <li class="gamePlat">Platforms: PC, Xbox</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="gameList">
+                        <li class="gameImg"><img src="images/Terraria.png" alt="terraria logo"></li>
+                        <li class="gameTitle">Terraria</li>
+                        <li class="gameText">Terraria is a 2D sandbox-survival game with gameplay that revolves around exploration, building, crafting, combat, survival, and mining, 
+                            playable in both single-player and multiplayer modes. It focuses extensively on using components found through excavation and spelunking 
+                            to create new items, structures, and machines. Terraria offers the ability to delve deep into cavernous expanses, test your mettle in combat, 
+                            or even construct your own city!</li><br>
+                        <li class="gamePlat">Platforms: PC, Xbox, Playstation, Nintendo Switch, Nintendo 3DS, Android, iOS, Wii U</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="gameList">
+                        <li class="gameImg"><img src="images/Raft.png" alt="raft logo"></li>
+                        <li class="gameTitle">Raft</li>
+                        <li class="gameText">Raft is an open-world survival game that throws you and your friends into an epic oceanic adventure. Alone or together, players battle 
+                            to survive a perilous voyage across a vast sea. Gather debris, scavenge reefs and build your own floating homes while unraveling the 
+                            game's narrative. </li><br>
+                        <li id="adventureJump" class="gamePlat">Platforms: PC, Xbox, Playstation</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3 class="adventure">Adventure</h3>
+            <ul id="genList">
+                <li>
+                    <ul class="gameList">
+                        <li class="gameImg"><img src="images/Hogwarts_Legacy.png" alt="hogwarts logo"></li>
+                        <li class="gameTitle">Hogwarts Legacy</li>
+                        <li class="gameText">Hogwarts Legacy is an immersive, open-world action-adventure RPG set in the world first introduced in the Harry Potter books. Your 
+                            character is a student who holds the key to an ancient secret that threatens to tear the wizarding world apart. Embark on a journey 
+                            through familiar and new locations as you explore and discover magical beasts, customize your character and craft potions, 
+                            master spell casting, upgrade talents and become the wizard you want to be.</li><br>
+                        <li class="gamePlat">Platforms: PC, Xbox, Playstation, Nintendo Switch</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="gameList">
+                        <li class="gameImg"><img src="images/It_Takes_Two.png" alt="it takes two logo"></li>
+                        <li class="gameTitle">It Takes Two</li>
+                        <li class="gameText">It Takes Two is an innovative co-op adventure where uniquely varied gameplay and emotional storytelling intertwine in a fantastical journey. 
+                            Play as the clashing couple Cody and May, two humans turned into dolls by a magic spell. Together, trapped in a fantastical world where 
+                            the unpredictable hides around every corner, they are reluctantly challenged with saving their fractured relationship.</li><br>
+                        <li class="gamePlat">Platforms: PC, Xbox, Playstation, Nintendo Switch</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="gameList">
+                        <li class="gameImg"><img src="images/God_of_War.png" alt="GOW logo"></li>
+                        <li class="gameTitle">God of War</li>
+                        <li class="gameText">God of War is a third-person action-adventure video game that has received universal acclaim for its story, world design, art direction, 
+                            music, graphics, combat system, and characters. It features an over-the-shoulder free camera and intense story with beautiful cinematics. 
+                            The player controls the character Kratos and follows him and his son Atreus in combo-based combat and puzzle game elements. The game is 
+                            loosely inspired by Norse mythology, with the majority of it set in ancient Scandinavia in the realm of Midgard.</li><br>
+                        <li class="gamePlat">Platforms: PC, Playstation</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="gameList">
+                        <li class="gameImg"><img src="images/Roblox.png" alt="roblox logo"></li>
+                        <li class="gameTitle">Roblox</li>
+                        <li class="gameText">Roblox is a platform that hosts more than 40 million user-generated experiences and lets users build their own from scratch. 
+                            Within these experiences, users can play games, socialize with others, and earn and spend a virtual currency called Robux. It is 
+                            a perfect game for young game enthusiasts and children who want to start playing video games. It offers endless creativity,  
+                            imagination, and communication with other players to create amazing experiences. </li><br>
+                        <li class="gamePlat">Platforms: PC, Xbox, Android, iOS</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="gameList">
+                        <li class="gameImg"><img src="images/Stray.png" alt="stray logo"></li>
+                        <li class="gameTitle">Stray</li>
+                        <li class="gameText">Stray is a third-person adventure game where you play as a cat set amidst the detailed, neon-lit alleys of a decaying cybercity and 
+                            the murky environments of its seedy underbelly. Roam surroundings high and low, defend against unforeseen threats and solve the 
+                            mysteries of this unwelcoming place inhabited by curious droids and dangerous creatures.</li><br>
+                        <li class="gamePlat">Platforms: PC, Playstation</li>
+                    </ul>
+                </li>
+            </ul>
+        </main>
+
+        <footer> <!--Footer and bottom of page-->
+            <img src="images/controller.png" alt="logo">
+            <p><a href="index.html">Home</a> | <a href="quiz.html">Quiz</a> | <a href="list.html">List of Games</a> |
+                <a href="aboutus.html">About Us</a> | <a href="contact.html">Contact</a></p>
+            <p>Copyright &copy; 2023 GameQuiz</p>
+        </footer>
+    </body>
+</html>
