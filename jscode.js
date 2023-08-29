@@ -266,9 +266,9 @@ function setResults(game1, game2, game3){
     }
     
     let str = '<table>' + 
-        '<tr><th>' + '<img src="images/' + game1 + '.png" alt="' + game1 + '"></th>' + 
-        '<th>' + '<img src="images/' + game2 + '.png" alt="' + game2 + '"></th>' + 
-        '<th>' + '<img src="images/' + game3 + '.png" alt="' + game3 + '"></th></tr>' +
+        '<tr><th>' + '<img src="' + game1 + '.png" alt="' + game1 + '"></th>' + 
+        '<th>' + '<img src="' + game2 + '.png" alt="' + game2 + '"></th>' + 
+        '<th>' + '<img src="' + game3 + '.png" alt="' + game3 + '"></th></tr>' +
         '<tr><th>' + games[0] + '</th><th>' + games[1] + '</th><th>' + games[2] + '</th></tr>' + 
         '</table>' + '<p id="desc">See all game descriptions <a href="list.html">here!</a></p>';
 
